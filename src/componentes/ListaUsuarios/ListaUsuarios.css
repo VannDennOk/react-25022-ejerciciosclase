@@ -1,0 +1,13 @@
+.lista_usuarios {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--colorAcento);
+
+    list-style: none;
+    font-family: var(--font);
+    font-size: 1rem;
+}

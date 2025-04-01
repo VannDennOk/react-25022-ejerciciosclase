@@ -1,17 +1,16 @@
 .box {
-    height: 40vh;
-    width: 80vw;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid aqua;
-    border-radius: 2rem;
-    box-shadow: 0px 0px 25px 0px aqua;
+    border: 2px solid var(--colorAcento);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 0px var(--colorAcento);
     padding: 1rem;
-
 }
 
 h1 {
-    color: aqua;
-    font-size: 6rem;
+    font-family: var(--fontH1);
+    color: var(--colorAcento);
+    font-size: 2rem;
 }

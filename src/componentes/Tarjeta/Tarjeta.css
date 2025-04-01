@@ -1,0 +1,27 @@
+.tarjeta{
+    width: 80%;
+    background-color: var(--colorNegro);
+    border: 2px solid var(--colorAcento);
+    border-radius: 1rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h2 {
+    font-family: var(--font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--colorBlanco);
+}
+
+h3 {
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--colorBlanco);
+}
