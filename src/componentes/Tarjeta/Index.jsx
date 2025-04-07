@@ -4,8 +4,8 @@ import Boton from "../Boton/Index";
 function Tarjeta({ titulo, descripcion, botonTexto }) {
     
     return <div className="tarjeta">
-                <span><h2>{titulo}</h2></span>
-                <span><h3>{descripcion}</h3></span>
+                <h2>{titulo}</h2>
+                <h3>{descripcion}</h3>
                 <Boton
                     texto={botonTexto} 
                     color='var(--colorAcento)'
