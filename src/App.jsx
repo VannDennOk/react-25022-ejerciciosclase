@@ -23,7 +23,6 @@ function App() {
         descripcion = "20% de descuento en todos los productos"
         botonTexto = "Ver más"
       ></Tarjeta>
-    
     </div>
   )
 }
