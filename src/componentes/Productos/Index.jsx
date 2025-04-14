@@ -1,11 +1,15 @@
+import React from "react";
 import "./Productos.css"
 
-function Productos() {
-    const productos = [ 'Manzanas', 'Peras', 'Naranjas'];
+function Productos({ productos }) {
+    
     return (
         <ul className="lista_productos">
-            {productos.map(productos => (
-                <li key={productos}>{productos}</li>
+            {
+            productos.map((productos, index) => (
+                <li key={index}>
+                    {productos}
+                </li>
             ))}
         </ul>
     );

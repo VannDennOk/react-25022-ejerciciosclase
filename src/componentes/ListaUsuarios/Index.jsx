@@ -1,3 +1,4 @@
+import React from "react";
 import "./ListaUsuarios.css"
 
 function ListaUsuarios() {

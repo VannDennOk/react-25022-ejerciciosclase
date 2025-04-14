@@ -7,17 +7,20 @@ import Productos from './componentes/Productos/Index'
 import Tarjeta from './componentes/Tarjeta/Index'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const productos = [ 'Manzanas', 'Peras', 'Naranjas'];
 
+  
+  
+  
   return (
     <div className='container'>
-      <Saludo/>
+      <Saludo nombre="Van"></Saludo>
       <ListaUsuarios/>
       <div className='container_btn'>
-        <Boton texto="Aceptar" color="var(--colorVerde)"/>
-        <Boton texto="Cancelar" color="var(--colorRojo)"/>
+        <Boton texto="Aceptar" colorBG="var(--colorVerde)"/>
+        <Boton texto="Cancelar" colorBG="var(--colorRojo)"/>
       </div>
-      <Productos></Productos>
+      <Productos productos={productos}></Productos>
       <Tarjeta
         titulo = "Oferta especial"
         descripcion = "20% de descuento en todos los productos"

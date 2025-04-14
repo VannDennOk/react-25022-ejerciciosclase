@@ -1,3 +1,4 @@
+import React from "react";
 import "./Tarjeta.css"
 import Boton from "../Boton/Index";
 
@@ -8,7 +9,7 @@ function Tarjeta({ titulo, descripcion, botonTexto }) {
                 <h3>{descripcion}</h3>
                 <Boton
                     texto={botonTexto} 
-                    color='var(--colorAcento)'
+                    colorBG='var(--colorAcento)'
                 />
             </div>
 }
