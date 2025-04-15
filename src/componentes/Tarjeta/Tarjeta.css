@@ -1,27 +1,58 @@
+img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
 .tarjeta{
-    width: 80%;
+    width: 300px;
     background-color: var(--colorNegro);
-    border: 2px solid var(--colorAcento);
-    border-radius: 1rem;
-    padding: 2rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+}
+
+.tarjeta__descripcion{
+    background-color: var(--colorNegro);
+    border: 2px solid var(--colorAcento);
+    border-radius: 0 0 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 h2 {
     font-family: var(--font);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--colorBlanco);
 }
 
 h3 {
     font-family: var(--font);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--colorBlanco);
+}
+
+.tarjeta__promocion{
+    background-color: var(--colorVerde);
+    width: 4.5rem;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+
+    font-family: var( --fontH1);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--colorBlanco);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
