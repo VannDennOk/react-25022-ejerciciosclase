@@ -1,0 +1,12 @@
+.tarjeta_proyecto{
+    background-color: var(--colorNegro);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--colorAcento);
+    border-radius: 16px;
+}

@@ -24,3 +24,28 @@
   justify-content: center;
   gap: 1rem;
 }
+
+ul{
+  list-style: none;
+}
+
+h2 {
+  font-family: var(--fontH1);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--colorBlanco);
+}
+
+h3 {
+  font-family: var(--font);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--colorBlanco);
+}
+
+p {
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--colorBlanco);
+}

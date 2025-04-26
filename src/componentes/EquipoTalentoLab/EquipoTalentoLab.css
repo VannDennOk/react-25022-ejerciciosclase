@@ -1,17 +1,19 @@
-.productos_container{
+.equipo_container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
 }
 
-.productos_area-tarjeta{
+.equipo_area-tarjetas{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
     padding: 2rem 0;
 }

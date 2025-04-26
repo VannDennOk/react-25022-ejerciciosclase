@@ -1,0 +1,16 @@
+.tarjeta_intereses{
+    background-color: var(--colorNegro);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    border: 2px solid var(--colorAcento);
+    border-radius: 16px;
+}
+
+.tarjeta_intereses-img{
+    width: 50%;
+}
